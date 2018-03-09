@@ -33,7 +33,7 @@ public class Change {
 
 마지막으로 정리하자면 **"자바로 소수연산을 하게된다면 int, long, BigDecimal 같은 안정적인 자료형을 사용해야 한다"** 이다.
 
-[소스코드](https://github.com/bbubbush/java_puzzlers/blob/master/Part1_%ED%91%9C%ED%98%84%EC%8B%9D%ED%8D%BC%EC%A6%90/md/02_Change.md)
+[소스코드](https://github.com/bbubbush/java_puzzlers/blob/master/Part1_%ED%91%9C%ED%98%84%EC%8B%9D%ED%8D%BC%EC%A6%90/java/Change.java)
 
 
 
