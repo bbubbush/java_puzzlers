@@ -38,7 +38,9 @@ public class LongDivision {
 
 왜 L을 붙여야하는지에 대한 이유를 이 문제를 통해 이해가 되었기를 바란다.
 
-[[ 소스코드 ]](https://github.com/bbubbush/java_puzzlers/blob/master/Part1_%ED%91%9C%ED%98%84%EC%8B%9D%ED%8D%BC%EC%A6%90/java/LongDivision.java)
+또한 앞으로 큰 수를 다룰 때는 변수타입이 크다고 방심하지 말고 연산되는 값들의 타입도 확인하는 습관을 가져야 한다.
+
+[[ 소스코드 ]](https://github.com/bbubbush/java_puzzlers/blob/master/Part1_%ED%91%9C%ED%98%84%EC%8B%9D%ED%8D%BC%EC%A6%90/java/
 
 
 

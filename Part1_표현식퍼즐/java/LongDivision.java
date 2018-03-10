@@ -19,6 +19,5 @@ public class LongDivision {
 		System.out.println("Solution");
 		System.out.println(LongDivision.longDivisionSolution());
 		System.out.println();
-
 	}
 }
