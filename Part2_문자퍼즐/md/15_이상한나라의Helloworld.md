@@ -31,5 +31,6 @@ public class HelloWorld {
 
 개발을 하다보면 별의 별 일을 겪에 될텐데 만약 이런 지식없이 이런 일을 만나게 되면 꽤나 오래 고민하게 될 수도 있겠다 싶었다.
 
+아참, 만약에 주석 내에 유니코드 이스케이프를 사용해야 한다면 html 이스케이프를 사용하는 것이 좋다. 헷갈릴 경우도 적고, 다른 개발자가 봤을 때, 한 눈에 무엇을 나타낸 것인지 느낄 수 있기 때문이다.
 
 [[ 소스코드 ]](https://github.com/bbubbush/java_puzzlers/blob/master/Part2_%EB%AC%B8%EC%9E%90%ED%8D%BC%EC%A6%90/java/HelloWorld.java)
