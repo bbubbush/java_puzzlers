@@ -1,7 +1,7 @@
-# 18번째 퍼즐 - String cheeze
+# 18번째 퍼즐 - String cheese
 
 ```{.java}
-public class StringCheeze {
+public class StringCheese {
 	public static void main(String args[]) {
 		byte[] bytes = new byte[256];
 		for(int i = 0; i > 256; i++) {
@@ -20,7 +20,7 @@ public class StringCheeze {
 
 아무튼 직접 실행해보면 내 경우에는 0부터 127까지는 잘 출력 되다가 128번째 수 부터는 종잡을 수 없는 수들이 튀어나왔다. 왜 내 경우라고 서두에 한정지었냐면 책에 따르면 실행하는 환경마다 다른 결과가 출력될 수 있기 때문이다.
 
-문제의 핵심은 가장 수상적은 부분은 역시 String이다. 굳이 바이트배열 그대로 출력하지 않고 String에 담는 수상한 행위는 충분히 의심을 살만 하다.
+문제의 핵심이자, 가장 수상적은 부분은 역시 String이다. 굳이 바이트배열 그대로 출력하지 않고 String에 담는 수상한 행위는 충분히 의심을 살만 하다.
 
 저자 역시 여기가 문제의 원인으로 꼽았다. String객체의 경우 매개변수로 바이트배열이 올 경우에 디폴트 캐릭터 셋으로 디코딩해서 String 인스턴스를 생성한다. 
 만약 매개변수인 바이트배열이 캐릭터셋에 맞지 않는 경우에는 어떤 결과가 출력될지 모른다고 Doc에 나와있다. 
@@ -39,4 +39,4 @@ public class StringCheeze {
 
 정리하자면 바이트배열을 문자열로 변환할 때는 꼭 캐릭터셋을 넣어주어야 한다. 하지만 좋은 방법이 아니므로 설계과정에서 이런 부분을 피해갈 수 있다면 피하는 것이 상책이라 생각이 든다.
 
-[[ 소스코드 ]](https://github.com/bbubbush/java_puzzlers/blob/master/Part2_%EB%AC%B8%EC%9E%90%ED%8D%BC%EC%A6%90/java/StringCheeze.java)
+[[ 소스코드 ]](https://github.com/bbubbush/java_puzzlers/blob/master/Part2_%EB%AC%B8%EC%9E%90%ED%8D%BC%EC%A6%90/java/StringCheese.java)
